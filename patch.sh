@@ -185,3 +185,5 @@ export PATCHED=1
 
 # phone interface switch
 python3 $SCRIPT_DIR/patches/phone_ui.py || exit 1
+
+python3 $SCRIPT_DIR/patches/phone_ui_dpi.py || exit 1
